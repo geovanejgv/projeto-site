@@ -18,14 +18,22 @@ main{
 fieldset {
     background-color: #d6FFFF;
     margin-bottom: 20px;
-    border: 2px solid red
-    border-radius: 10px;
-    width: 150px;
+    border: 2px solid rgb(43, 12, 214);
+    border-radius: 20px;
+    width: 750px;
+    font-weigth: bold;
 }
 
 legend {
-    background-color: red
-    color: #FFF;
+    background-color: rgb(43, 12, 214);
+    color: white;
     padding: 5px;
     border-radius: 10px;
+}
+
+input {
+    background-color: rgb(248, 247, 247);
+    color: rgb(43, 12, 214);
+    padding: 5px;
+    border: 10px;
 }
