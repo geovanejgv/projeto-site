@@ -72,5 +72,6 @@ input:hover {
 @media (max-width:450x) {
     article {
     width: 440px;
+    color:blue;
     }
 }
