@@ -61,10 +61,16 @@ input:hover {
     color: white;
     font-size: 25px;
     text-align: center;
+    font: bold;
 }
 }
 @media (max-width:450x) {
     fieldset {
+    width: 440px;
+    }
+}
+@media (max-width:450x) {
+    article {
     width: 440px;
     }
 }
