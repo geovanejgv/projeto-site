@@ -58,6 +58,9 @@ input:hover {
 @media (max-width:450px) {
     Body{
     background-color: rgb(12, 74, 190);
+    color: white;
+    font-size: 25px;
+    text-align: center;
 }
 }
 @media (max-width:450x) {
