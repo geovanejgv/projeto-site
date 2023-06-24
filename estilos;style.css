@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rgb(171, 207, 241);
+    background-color: #EEE;
 }
 main{
     background-color: white;
@@ -16,7 +16,7 @@ main{
 }
 
 fieldset {
-    background-color: #EEE;
+    background-color: rgb(171, 207, 241);
     margin-bottom: 20px;
     border: 2px solid red
     border-radius: 10px;
