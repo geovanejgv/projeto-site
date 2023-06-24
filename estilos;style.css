@@ -21,7 +21,8 @@ fieldset {
     border: 2px solid rgb(43, 12, 214);
     border-radius: 20px;
     width: 750px;
-    font-weigth: bold;
+    font-weight: bold;
+    color: blue;
 }
 
 legend {
@@ -36,4 +37,20 @@ input {
     color: rgb(43, 12, 214);
     padding: 5px;
     border: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(43, 12, 214);
+
+}
+textarea {
+    width: 200px;
+    height: 100px;
+    border-radius: 15px;
+}
+input:hover {
+    border: 3px solid blue;
+}
+
+.termoslink:hover {
+    text-decoration: underline;
+    color: red;
 }
