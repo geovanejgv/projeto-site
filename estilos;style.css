@@ -57,11 +57,11 @@ input:hover {
 
 @media (max-width:450px) {
     Body{
-    background-color: red;
+    background-color: rgb(12, 74, 190);
 }
 }
 @media (max-width:450x) {
     fieldset {
-    width: 370px;
+    width: 100% -10%;
     }
 }
