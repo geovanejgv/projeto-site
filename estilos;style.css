@@ -54,3 +54,14 @@ input:hover {
     text-decoration: underline;
     color: red;
 }
+
+@media (max-width:414px) {
+    Body{
+    background-color: red;
+}
+
+@media (max-width:414px) {
+    fieldset {
+    width: 300px;
+    }
+}
