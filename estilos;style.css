@@ -14,4 +14,18 @@ main{
     padding: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.404);
 }
-    
+
+fieldset {
+    background-color: #EEE;
+    margin-bottom: 20px;
+    border: 2px solid red
+    border-radius: 10px;
+    width: 150;
+}
+
+legend {
+    background-color: red
+    color: #FFF;
+    padding: 5px;
+    border-radius: 10px;
+}
