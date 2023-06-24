@@ -18,9 +18,9 @@ main{
 fieldset {
     background-color: #d6FFFF;
     margin-bottom: 20px;
-    border: 2px solid rgb(43, 12, 214);
+    border: 5px solid rgb(43, 12, 214);
     border-radius: 20px;
-    width: 750px;
+    width: 100% -30px;
     font-weight: bold;
     color: blue;
 }
