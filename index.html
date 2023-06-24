@@ -19,28 +19,38 @@
         <h2>Área de Cadastro</h2>
     <form action="Tabelas-CSS.html" method="GET"><!--get coloca a informação na URL, o modo "pos" vai internamente, sem aparecer na URL-->
 
+           
+        <fieldset>
+        
             <input type="text" name="usuario" placeholder="Usuário"/>
-            <input type="submit" value="Fazer Cadastro" placeholder="Fazer Cadastro"/><p></p>
+            
            <input type="password" placeholder="Senha" />Password <p></p>
+            <input type="month" /> mês e ano <p></p>
+            <input type="tel" placeholder="Telefone" /> Telefone <p></p>
+            <input type="number" /> Números <p></p>
+            <input type="radio" name="sexo" M/>
+            <input type="radio" name="sexo" F/> radio
             <input type="checkbox" />checkbox <p></p>
             <input type="email" placeholder="E-mail"/> e-mail <p></p>
             <input type="color" /> cor <p></p>
             <input type="date" /> data <p></p>
+
+        </fieldset>
+            <input type="submit" value="Fazer Cadastro" placeholder="Fazer Cadastro"/><p></p>
+
+        <fieldset>
             <input type="datetime-local" /> data e hora <p></p>
-            <input type="month" /> mês e ano <p></p>
-            <input type="number" /> Números <p></p>
+            
             <input type="range" /> Range <p></p>
             <input type="search" /> Search <p></p>
-            <input type="tel" placeholder="Telefone" /> Telefone <p></p>
             <input type="time" /> Hora <p></p>
             <input type="url" placeholder="URL"/> URL <p></p>
             <input type="week" /> Semana <p></p>
 
             <!--Na opção type radio, é necessario que os nomes sejam iguais-->
             <input type="radio" name="sexo" /> 
-            <input type="radio" name="sexo" />
-            <input type="radio" name="sexo" /> radio
-
+            
+        </fieldset>
     </form> 
         <p></p>
             
