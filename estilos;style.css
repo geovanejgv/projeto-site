@@ -59,9 +59,9 @@ input:hover {
     Body{
     background-color: red;
 }
-
+}
 @media (max-width:450x) {
     fieldset {
-    width: 400px;
+    width: 370px;
     }
 }
