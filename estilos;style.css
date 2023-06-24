@@ -55,13 +55,13 @@ input:hover {
     color: red;
 }
 
-@media (max-width:414px) {
+@media (max-width:450px) {
     Body{
     background-color: red;
 }
 
-@media (max-width:414px) {
+@media (max-width:450x) {
     fieldset {
-    width: 300px;
+    width: 400px;
     }
 }
