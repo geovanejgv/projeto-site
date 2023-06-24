@@ -16,6 +16,8 @@
 
         <h1> Página de teste para Formulários</h1>
 
+        <img src="https://www.google.com.br/google.jpg"/>
+
         <h2>Área de Cadastro</h2>
     <form action="Tabelas-CSS.html" method="GET"><!--get coloca a informação na URL, o modo "pos" vai internamente, sem aparecer na URL-->
 
@@ -32,74 +34,60 @@
 
          <label>
                 Primeiro Nome: <br/>
-            <input type="text" name="usuario" placeholder="Usuário"/>
+            <input type="text" name="usuario" placeholder="Nome" autofocus required/>
         </label> <p></p>
+
+
+        <label>
+            Nome: <br/>
+        <input type="text" name="usuario" placeholder="Sobrenome" autofocus required/>
+    </label> <p></p>
+
+
+    <label>   
+        Aniversario <br/>
+        <input type="date" />  <p></p>
+    </label>
+
+
+    <label>   
+        Radios <br/>
+        <input type="radio" name="sexo" M/>
+        <input type="radio" name="sexo" F/> <p></p>
+    </label>    
+
+
+    <label>   
+        Telefone <br/> 
+        <input type="tel" placeholder="Telefone" />  <p></p>
+    </label>
+
+
+    <label>   
+        E-mail <br/>
+        <input type="email" placeholder="E-mail"/>  <p></p>
+    </label>
             
+    <label>   
+        Checkbox <br/>
+        <input type="checkbox" />Eu li e concordo com os <a href="paginas/termos.html" target="_blank" class="termoslink">termos de uso.</a><p></p> 
+    </label>  
            
-        <label>
-                 Senha: <br/>
-        <input type="password" placeholder="Senha" /><p></p>
-        </label>
-
-        <label>
-            Mes e Ano <br/>
-            <input type="month" />  <p></p>
-        <label> 
-            
-            
-        <label>   
-            Telefone <br/> 
-            <input type="tel" placeholder="Telefone" /> Telefone <p></p>
-        </label>
-
-
-        <label>   
-            Numeros <br/> 
-            <input type="number" /> <p></p>
-        </label>
-
-        <label>   
-            Radios <br/>
-            <input type="radio" name="sexo" M/>
-            <input type="radio" name="sexo" F/> <p></p>
-        </label>    
-            
-          
-        <label>   
-            Checkbox <br/>
-            <input type="checkbox" /><p></p> 
-        </label>  
-
-        <label>   
-            E-mail <br/>
-            <input type="email" placeholder="E-mail"/>  <p></p>
-        </label>
-
-        <label>   
-            Cor <br/>
-            <input type="color" /><p></p>
-        </label>
-
-        <label>   
-            Data <br/>
-            <input type="date" />  <p></p>
-        </label>
-
         </fieldset>
             
-
+        <input type="submit" value="Fazer Cadastro" placeholder="Fazer Cadastro"/><p></p>
         <fieldset>
 
-            <legend>nformacoes Adicionais</legend>
+            <legend>Informacoes Adicionais</legend>
 
             <label>   
-                Data Time <br/>
+                Data Time mergin<br/>
             <input type="datetime-local" />  <p></p>
             </label>
             
             <label>
                 Range <br/>
-            <input type="range" />  <p></p>
+            <input type="range" min="0" max="100"/>  <p></p>
             </label>
 
             <label>
@@ -134,14 +122,45 @@
             <input type="radio" name="sexo" />
 
             </label>
+
+            <label>
+                Senha: <br/>
+       <input type="password" placeholder="Senha" /><p></p>
+       </label>
+
+
+       
+       <textarea name="textarea" placeholder="Escreva Aqui!">
+
+       </textarea> </p>
+   
+
+       <label>
+           Mes e Ano <br/>
+           <input type="month" />  <p></p>
+       <label> 
+
+       <label>   
+           Numeros <br/> 
+           <input type="number" /> <p></p>
+       </label>
+
+       <label>   
+           Cor <br/>
+           <input type="color" /><p></p>
+       </label>
+
+       </fieldset>
             
         </fieldset>
 
-        <input type="submit" value="Fazer Cadastro" placeholder="Fazer Cadastro"/><p></p>
+        
     </form> 
         <p></p>
             
-            
+    <a href="https:www.google.com.br">Google</a> 
+    
+    
         
         <h2>Área de login</h2>
         <form></form>
