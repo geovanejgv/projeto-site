@@ -67,7 +67,7 @@ input:hover {
     color: red;
 }
 
-@media (max-width:450px) {
+@media (max-width:450px) 
     Body{
     background-color: var(--bg-colorfield);
     color: var(--font-colorfield);
